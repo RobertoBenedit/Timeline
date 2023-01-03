@@ -122,22 +122,8 @@ body {
     margin-bottom: 15px;
 }
 
-.left-container-arrow {
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid #fff;
-    border-bottom: 15px solid #fff;
-    border-left: 15px solid #fff;
-    border-right: 15px solid transparent;
-    padding: 35px;
-    right: -205px;
-    border-radius: 30%;
-}
 
-/* .left-container-arrow {
+.left-container-arrow {
     height: 0;
     width: 0;
     position: absolute;
@@ -147,7 +133,7 @@ body {
     border-bottom: 15px solid transparent;
     border-left: 15px solid #fff;
     right: -15px;
-} */
+}
 
 .right-container-arrow {
     height: 0;
