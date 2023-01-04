@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="stylesheet" href="dyCalendarJS-master/css/dycalendar.css">
+
+</head>
+
+<body>
+    <h1>Calendarios De Talleres</h1>
+    <a href="index.html" class="text-box">VOLVER AL INICIO</a>
+
+
+    <section>
+        <div class="box">
+            <div class="container">
+                <div id="dycalendar"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="dyCalendarJS-master/js/dycalendar.js"></script>
+    <script>
+        dycalendar.draw({
+            target: "#dycalendar",
+            type: 'month',
+            highlighttargetdate: true,
+            prevnextbutton: 'show'
+        })
+    </script>
+</body>
+
+</html>
